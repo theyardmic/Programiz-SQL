@@ -1,0 +1,1 @@
+SELECT model, YEAR, price FROM MercWorld;
