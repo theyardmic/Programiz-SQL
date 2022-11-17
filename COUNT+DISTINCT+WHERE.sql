@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT model) as MercModels FROM MercWorld;
