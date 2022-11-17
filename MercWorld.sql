@@ -1,13 +1,13 @@
 ﻿ CREATE TABLE mercWorld (
 	model VARCHAR ( 300 ),
-	YEAR VARCHAR ( 300 ),
-	price VARCHAR ( 300 ),
+	YEAR INTEGER ( 300 ),
+	price INTEGER ( 300 ),
 	transmission VARCHAR ( 300 ),
-	mileage VARCHAR ( 300 ),
+	mileage INTEGER ( 300 ),
 	fuelType VARCHAR ( 300 ),
-	tax VARCHAR ( 300 ),
-	mpg VARCHAR ( 300 ),
-	engineSize VARCHAR ( 300 ) 
+	tax INTEGER ( 300 ),
+	mpg DECIMAL ( 300 ),
+	engineSize INTEGER ( 300 ) 
 );
 INSERT INTO mercWorld ( model, YEAR, price, transmission, mileage, fuelType, tax, mpg, engineSize )
 VALUES
