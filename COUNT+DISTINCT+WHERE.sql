@@ -1,1 +1,6 @@
+--count with distinct
 SELECT COUNT(DISTINCT model) as MercModels FROM MercWorld;
+
+--count with  WHERE and BETWEEN
+SELECT COUNT(DISTINCT model) as Expensive_Models FROM MercWorld
+WHERE YEAR BETWEEN "2015" AND "2020";
