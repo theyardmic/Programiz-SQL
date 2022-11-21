@@ -15,7 +15,7 @@ WHERE customer_id IN(
 
   --SQL subqueries can be substituted with JOINs
     --Customers who have placed orders
-SELECT customer_id, first_name
+SELECT Customers.customer_id, Customers.first_name AS Customer_Name
 FROM Customers
-JOIN orders
-ON Customers.customer_id = orders.customer_id;
+JOIN Orders
+ON Customers.customer_id = Orders.customer_id;
