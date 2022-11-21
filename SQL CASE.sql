@@ -24,3 +24,11 @@ CASE
     WHEN amount >= 400 THEN (amount - amount * 10/100)
 END AS offer_price
 FROM Orders;
+
+--SQL CASE with multiple conditions
+SELECT customer_id, first_name,
+CASE
+    WHEN country = 'USA' THEN 'United States of America'
+    WHEN country = 'UK' THEN 'United Kingdom'
+END AS country_name
+FROM Customers;
