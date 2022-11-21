@@ -17,3 +17,10 @@ CASE
     ELSE 'Unknown Country'
 END AS country_name
 FROM Customers;
+
+--BLACK Friday using case
+SELECT order_id, customer_id,
+CASE
+    WHEN amount >= 400 THEN (amount - amount * 10/100)
+END AS offer_price
+FROM Orders;
