@@ -1,4 +1,4 @@
-﻿ CREATE TABLE MercWorld (
+﻿ CREATE TABLE Mercs (
 	model VARCHAR ( 300 ),
 	YEAR INTEGER ( 300 ),
 	price INTEGER ( 300 ),
@@ -9,7 +9,8 @@
 	mpg DECIMAL ( 300 ),
 	engineSize INTEGER ( 300 ) 
 );
-INSERT INTO MercWorld ( model, YEAR, price, transmission, mileage, fuelType, tax, mpg, engineSize )
+
+INSERT INTO Mercs ( model, YEAR, price, transmission, mileage, fuelType, tax, mpg, engineSize )
 VALUES
 	( 'SLK', '2005', '5200', 'Automatic', '63000', 'Petrol', '325', '32.1', '1.8' ),
 	( 'S Class', '2017', '34948', 'Automatic', '27000', 'Hybrid', '20', '61.4', '2.1' ),
