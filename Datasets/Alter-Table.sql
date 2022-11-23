@@ -27,5 +27,9 @@ DROP COLUMN height;
 Alter Table Cars
 RENAME COLUMN fuel_cap to Consumption;
 
---Alter 
+--Alter Tables
+
+Alter Table Cars
+RENAME TO Automobiles;
+
 
