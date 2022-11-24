@@ -10,3 +10,11 @@ Student_name varchar Default "Missing_Name",
 INSERT INTO Campuses ( college_id, college_code)
 VALUES ('ARP76',"Riara");
 
+--Using ALTER Operations
+ALTER TABLE Campuses
+ADD CONSTRAINT missing_College
+DEFAULT "Missing_Campus" FOR college_id;
+
+--FOR POSTGRE SQL
+ALTER TABLE Campuses
+ALTER COLUMN college_id SET DEFAULT "missing_College";
