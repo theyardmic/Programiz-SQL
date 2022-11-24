@@ -4,3 +4,13 @@ CREATE TABLE Djawadi (
   	Track varchar(50),
 CONSTRAINT ThemesPK PRIMARY KEY(Episode, Season)
 );
+
+
+-- Removing a Primary Key
+ALTER TABLE Djawadi
+DROP PRIMARY KEY;
+
+	||
+        
+ALTER TABLE Djawadi
+DROP CONSTRAINT ThemesPK
