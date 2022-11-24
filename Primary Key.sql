@@ -14,3 +14,11 @@ DROP PRIMARY KEY;
         
 ALTER TABLE Djawadi
 DROP CONSTRAINT ThemesPK
+
+
+--Using Primary Keyq With Auto Increment
+CREATE TABLE EVs(
+	Model varchar(50),
+  	Range_in_Miles BIGINT,
+  	Serial_No int AUTO_INCREMENT
+);
