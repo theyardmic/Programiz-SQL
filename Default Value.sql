@@ -18,3 +18,7 @@ DEFAULT "Missing_Campus" FOR college_id;
 --FOR POSTGRE SQL
 ALTER TABLE Campuses
 ALTER COLUMN college_id SET DEFAULT "missing_College";
+
+--DROPPING the default value
+ALTER TABLE Campuses
+ALTER COLUMN college_id DROP DEFAULT "missing_College";
