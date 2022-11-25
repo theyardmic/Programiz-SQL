@@ -20,3 +20,11 @@ VALUES
 );
 
 --Date-time functions
+--they include
+--CURRENT_DATE
+--CURRENT_TIME
+--CURRENT_TIMESTAMP
+--NOW()
+--SYSDATE()
+--SYSTIME()
+--SYSTIMESTAMP()
